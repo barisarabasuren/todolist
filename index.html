@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div id="title">
+            <h1>TODO LIST</h1>
+            <p>Make your todo lıst</p>
+        </div>
+    </header>
+
+    <div id="input-area" class="border-area">
+        <form id="input-form">
+            <label for="todo-input" class="sub-title">Add a Todo</label>
+            <input id="todo-input" type="text" placeholder="Write here">
+            <button id="submit-todo-button" type="submit">Add</button>
+            <!-- <div class="alert-danger">
+                <i class="fas fa-skull-crossbones"></i>
+                Please type a todo.</div> -->
+        </form>
+    </div>
+
+    <div id="list-area" class="border-area">
+        <div>
+            <form id="search-form">
+                <label for="todo-search" class="sub-title">Search a Todo</label>
+                <input id="todo-search-input" type="text" placeholder="Search a Todo">
+                <button id="search-todo-button" type="submit">Search</button>
+            </form>
+        <hr>
+        <hr>
+        </div>
+        <div id="list-part">
+            <div class="sub-title">List of Todos</div>
+            <ul id="list-ul">
+                <!-- <li class="list-group">
+                    Todo 1
+                    <i class="fas fa-times"></i>
+                </li> -->
+            </ul>
+            <button id="clear-all-button">Clear All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
