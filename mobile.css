@@ -1,0 +1,16 @@
+ #todo-input, #todo-search-input {
+    width: 80%;
+}
+
+li {
+    width: 80%;
+}
+
+.danger {
+    width: 80%;
+
+}
+
+.success {
+    width: 80%;
+}
