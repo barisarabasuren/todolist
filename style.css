@@ -40,12 +40,6 @@ h1 {
     width: 50%;
 }
 
-@media (max-width: 500px) {
-    #todo-input, #todo-search-input {
-        width: 80%;
-    }
-}
-
 #submit-todo-button, #search-todo-button, #clear-all-button {
     font-size: 1.5em;
     background-color: gray;
@@ -80,29 +74,22 @@ li {
     padding: 0 0.5em;
 }
 
-@media (max-width: 500px) {
-    li {
-        width: 80%;
-    }
-}
-
 .danger {
     background-color: darkred;
-    
     font-size: 1.5em;
     margin-top: 1em;
-    width: 30%;
     display: flex;
     justify-content: center;
     border-radius: 1em;
+    padding: 0 10px;
 }
 
 .success {
     background-color: darkolivegreen;
     font-size: 1.5em;
     margin-top: 1em;
-    width: 30%;
     display: flex;
     justify-content: center;
     border-radius: 1em;
+    padding: 0 10px;
 }
